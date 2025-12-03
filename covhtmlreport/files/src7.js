@@ -1,0 +1,2 @@
+var g_data = {"name":"mem_agent.sv","src":"class mem_agent;\n	mem_gen gen;\n	mem_bfm bfm;\n	mem_mon mon;\n	mem_cov cov;\n	task run();\n		gen=new();\n		bfm=new();\n		mon=new();\n		cov=new();\n		fork\n			gen.run();\n			bfm.run();\n			mon.run();\n			cov.run();\n		join\n	endtask\nendclass\n","lang":"verilog"};
+processSrcData(g_data);

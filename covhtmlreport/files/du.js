@@ -1,0 +1,2 @@
+var g_data = {"data":[{"n":"work.list_svh_unit","id":1,"zf":1,"tc":89.76,"s":75.51,"b":73.33,"fc":100.00,"g":100.00,"a":100.00},{"n":"work.mem_assert","id":5,"zf":1,"tc":100.00,"t":100.00,"a":100.00},{"n":"work.mem_intrf","id":3,"zf":1,"tc":100.00,"s":100.00,"t":100.00},{"n":"work.memory","id":4,"zf":1,"tc":100.00,"s":100.00,"b":100.00},{"n":"work.tb","id":2,"zf":1,"tc":81.37,"s":94.11,"b":50.00,"t":100.00}]};
+processDuData(g_data);

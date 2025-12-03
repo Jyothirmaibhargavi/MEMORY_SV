@@ -1,0 +1,2 @@
+var g_data = {"name":"mem_sbd.sv","src":"class mem_sbd;\n	mem_tx tx;\n	int arr[int];\n	task run();\n		forever begin\n			mem_comm::mon2sbd.get(tx);\n			tx.print(\"mem_sbd\");\n			if(tx.wr_rd==1)arr[tx.addr]=tx.wdata;\n			else begin\n				if(tx.rdata==arr[tx.addr])mem_comm::matchings++;\n				else mem_comm::missmatchings++;\n			end\n		end\n	endtask\nendclass\n","lang":"verilog"};
+processSrcData(g_data);

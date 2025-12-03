@@ -1,0 +1,177 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f vlog 2024.1 2024.02, Feb  1 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dE:/system verilog/PROJECTS/Memory_SV
+Xlist_svh_unit
+Z2 2list.svh
+!s115 mem_intrf
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1764737016
+VYUM^;KN=8Z@23KA_c<C5R2
+r1
+!s85 0
+!i10b 1
+!s100 ZlM0RYY5?i7dQTIWAebgo2
+IYUM^;KN=8Z@23KA_c<C5R2
+!i103 1
+S1
+R1
+Z5 w1764562003
+8list.svh
+Flist.svh
+Z6 Fmemory.sv
+Fmem_comm.sv
+Fmem_tx.sv
+Fmem_gen.sv
+Z7 Fmem_intrf.sv
+Fmem_bfm.sv
+Fmem_mon.sv
+Fmem_cov.sv
+Fmem_agent.sv
+Fmem_sbd.sv
+Fmem_env.sv
+Z8 Fmem_assert.sv
+Z9 Fmem_tb.sv
+!i122 1
+Z10 L0 1 0
+Z11 OL;L;2024.1;79
+31
+Z12 !s108 1764737016.000000
+Z13 !s107 mem_tb.sv|mem_assert.sv|mem_env.sv|mem_sbd.sv|mem_agent.sv|mem_cov.sv|mem_mon.sv|mem_bfm.sv|mem_intrf.sv|mem_gen.sv|mem_tx.sv|mem_comm.sv|memory.sv|list.svh|
+Z14 !s90 -reportprogress|300|list.svh|
+!i113 0
+Z15 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z16 tCvgOpt 0
+vmem_assert
+R2
+R3
+Z17 DXx4 work 13 list_svh_unit 0 22 YUM^;KN=8Z@23KA_c<C5R2
+R4
+Z18 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 C`3B0kWKP7A]dKYQkk<]<3
+I9AG5e?>J]@ZX6zO?^bJNi3
+Z19 !s105 list_svh_unit
+S1
+R1
+R5
+8mem_assert.sv
+R8
+!i122 1
+L0 1 35
+R11
+31
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Ymem_intrf
+R2
+R3
+R17
+R4
+R18
+r1
+!s85 0
+!i10b 1
+!s100 NSMiTb?^8kng87gGoUXj:1
+I<d@LnPReAzi3PW7Tmz[TF1
+R19
+S1
+R1
+R5
+8mem_intrf.sv
+R7
+!i122 1
+R10
+R11
+31
+R12
+R13
+R14
+!i113 0
+R15
+R16
+vmemory
+R2
+R19
+R17
+R3
+R4
+!i10b 1
+!s100 c7iC[g@@F3jIAFfIcEVz:2
+IVl`TIG]8?W9angc3J`m[33
+S1
+R1
+R5
+8memory.sv
+R6
+!i122 1
+L0 4 18
+R18
+R11
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Tnwr_nrd
+!s11d E:/system verilog/PROJECTS/Memory_SV/work 0 
+!s11d mem_intrf 1 0 
+!s11d verilog/PROJECTS/Memory_SV/work 1 0 
+!s11d list_svh_unit E:/system 0 
+!s110 1764737017
+V@04jMVHnQHmkG06f1_gkL2
+04 2 4 work tb fast 0
+!s102 +cover=fcbest
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+o+cover=fcbest
+R16
+nnwr_nrd
+OL;O;2024.1;79
+vtb
+R2
+R3
+R17
+R4
+R18
+r1
+!s85 0
+!i10b 1
+!s100 ?2B4IRnOGlfJM9RI9e8o[0
+IYh]mBeRde89bNdm^:3>;z2
+R19
+S1
+R1
+R5
+8mem_tb.sv
+R9
+!i122 1
+L0 1 31
+R11
+31
+R12
+R13
+R14
+!i113 0
+R15
+R16

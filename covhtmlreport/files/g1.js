@@ -1,0 +1,2 @@
+var g_data = {"10":{"pr":"/list_svh_unit","ty":2,"dui":1,"dun":"work.list_svh_unit","cvgs":[{"h":["/list_svh_unit/mem_cov/cg",1,1,11],"sc":[2,3],"cov":[15,15,100.00],"opts":{"goal":"100","merge_instance":"auto(true)"}}]}};
+processCovergroupsData(g_data);

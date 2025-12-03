@@ -1,0 +1,2 @@
+var g_data = {"name":"mem_tx.sv","src":"class mem_tx;\n	rand bit wr_rd;\n	randc bit [`ADDR_WIDTH-1:0]addr;\n	rand bit [`WIDTH-1:0]wdata;\n	bit [`WIDTH-1:0]rdata;\n	function void print(input string str=\"tx_class\");\n		$display(\"---------------%0s-----------\",str);\n		$display(\"wr_rd=%b\",wr_rd);\n		$display(\"addr=%0d\",addr);\n		$display(\"wdata=%0d\",wdata);\n		$display(\"rdata=%0d\",rdata);\n	endfunction\nendclass \n","lang":"verilog"};
+processSrcData(g_data);

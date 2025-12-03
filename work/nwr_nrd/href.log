@@ -1,0 +1,10 @@
+BEGIN 3:mem_intrf:fast__2:work
+    valid :  1:tb:fast:work 1:memory:fast:work
+    clk :  1:tb:fast:work 1:memory:fast:work
+    wdata :  1:tb:fast:work 1:memory:fast:work
+    ready :  1:tb:fast:work 1:memory:fast:work
+    addr :  1:tb:fast:work 1:memory:fast:work
+    rdata :  1:tb:fast:work 1:memory:fast:work
+    wr_rd :  1:tb:fast:work 1:memory:fast:work
+    rst :  1:tb:fast:work 1:memory:fast:work
+END 

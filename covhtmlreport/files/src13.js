@@ -1,0 +1,2 @@
+var g_data = {"name":"memory.sv","src":"`define DEPTH 32\n`define WIDTH 8\n`define ADDR_WIDTH $clog2(`DEPTH)\nmodule memory(mem_intrf.design_mp mp);\n	reg [`WIDTH-1:0]mem[`DEPTH-1:0];\n	always@(posedge mp.clk)begin\n		if(mp.rst==1)begin\n			mp.rdata=0;\n			mp.ready=0;\n			for(int i=0;i<`DEPTH;i++)mem[i]=0;\n		end\n		else begin\n			if(mp.valid==1)begin\n				mp.ready=1;\n				if(mp.wr_rd==1)mem[mp.addr]=mp.wdata;\n				else mp.rdata=mem[mp.addr];\n			end\n			else mp.ready=0;\n		end\n	end\nendmodule\n","lang":"verilog"};
+processSrcData(g_data);

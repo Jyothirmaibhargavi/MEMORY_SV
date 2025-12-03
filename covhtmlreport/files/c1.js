@@ -1,0 +1,2 @@
+var g_data = {"11":{"cvpc":[{"h":["WR_RD",4,1,12],"sc":[2,4],"cov":[2,2,100.00],"opts":{"goal":"100"}},{"h":["ADDRESS",4,1,13],"sc":[2,8],"cov":[8,8,100.00],"opts":{"goal":"100"}},{"h":["CROSS_COV",8,1,14],"sc":[2,35],"cov":[5,5,100.00],"opts":{"goal":"100"},"cvps":["WR_RD","ADDRESS"]}],"cvg":["/list_svh_unit/mem_cov/cg",1],"cvgdata":[10,10,5,5]}};
+processCoverpointsData(g_data);

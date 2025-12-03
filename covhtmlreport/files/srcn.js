@@ -1,0 +1,2 @@
+var g_data = ["","mem_comm.sv","mem_cov.sv","mem_tx.sv","mem_gen.sv","mem_bfm.sv","mem_mon.sv","mem_agent.sv","mem_sbd.sv","mem_env.sv","list.svh","mem_tb.sv","mem_intrf.sv","memory.sv","mem_assert.sv"];
+processSrcNamesData(g_data);

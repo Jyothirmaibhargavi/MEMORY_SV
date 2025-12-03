@@ -1,0 +1,2 @@
+var g_data = {"name":"mem_comm.sv","src":"class mem_comm;\n	static string test_name;\n	static int N;\n	static int gen_count;\n	static int bfm_count;\n	static int matchings,missmatchings;\n	static mailbox gen2bfm=new();\n	static mailbox mon2cov=new();\n	static mailbox mon2sbd=new();\nendclass\n","lang":"verilog"};
+processSrcData(g_data);

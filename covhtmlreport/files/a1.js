@@ -1,0 +1,2 @@
+var g_data = {"9":{"pr":"/tb/uut","ty":2,"dui":5,"dun":"work.mem_assert","asserts":[{"n":["RESET",14,9],"h":[0,1]},{"n":["PRESET",14,14],"h":[0,1]},{"n":["HANDSHAKING",14,19],"h":[0,1]},{"n":["WRITE",14,24],"h":[0,1]},{"n":["READ",14,29],"h":[0,1]},{"n":["HAND",14,34],"h":[0,1]}],"ad":0},"10":{"pr":"/list_svh_unit","ty":2,"dui":1,"dun":"work.list_svh_unit","asserts":[{"n":["mem_gen/run/#ublk#267133908#55/immed__56",4,56],"h":[0,1]},{"n":["mem_gen/run/#ublk#267133908#62/immed__65",4,65],"h":[0,1]}],"ad":0}}
+processAssertionsData(g_data);
