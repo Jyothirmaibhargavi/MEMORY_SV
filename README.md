@@ -1,5 +1,5 @@
 
-<img width="1536" height="1024" alt="memory_sv" src="https://github.com/user-attachments/assets/d5f709b4-90a8-4979-adbe-ca0ed03e2e3f" />
+
 
 # Memory Verification Environment – SystemVerilog
 
@@ -76,10 +76,3 @@ Generator → Driver → DUT → Monitor → Scoreboard → Coverage
 - Simulation logs  
 - Assertion logs  
 
----
-
-## Author
-
-**Rakesh Magapu**  
-Aspiring VLSI & Verification Engineer  
-Open to roles in Digital Design, Verification, and Frontend VLSI.
